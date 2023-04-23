@@ -1,0 +1,31 @@
+h1 {
+  margin-bottom: 2%;
+}
+table {
+  margin-left: 3%;
+  border-collapse: collapse;
+}
+table + table {
+  margin-top: 2%;
+}
+caption {
+  text-align: left;
+  font-size: 21px;
+  margin-bottom: 1%;
+  margin-left: -10px;
+}
+tr + tr {
+  border-top: 1px dotted #000;
+}
+
+td {
+  box-sizing: border-box;
+}
+td:first-child {
+  text-align: center;
+   border-right: 2px solid #000;
+  width: 100px;
+  }
+td + td {
+  padding-left: 10px;
+}
