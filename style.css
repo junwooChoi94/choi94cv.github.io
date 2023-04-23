@@ -33,4 +33,5 @@ td:first-child {
   }
 td + td {
   padding-left: 10px;
+  padding-bottom: 50px
 }
